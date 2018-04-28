@@ -25,8 +25,9 @@
 @end
 
 
-@protocol ARSelectorDelegate
+@protocol ARSelectorDelegate <NSObject>
 
+@optional
 - (void)selectorView:(ARHorizontalSelectorView *)selectorView didSelectItemAtIndex:(NSInteger)index;
 
 @end

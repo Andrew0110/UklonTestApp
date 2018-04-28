@@ -91,9 +91,11 @@
         [self layoutIfNeeded];
     } completion:^(BOOL finished) {
         self.selectedIndex = indexPath.item;
-        [self.delegate selectorView:self didSelectItemAtIndex:indexPath.item];
         [self.collectionView reloadData];
         [fakeUnderline removeFromSuperview];
+        if ([self.delegate respondsToSelector:@selector(selectorView:didSelectItemAtIndex:)]) {
+            [self.delegate selectorView:self didSelectItemAtIndex:indexPath.item];
+        }
     }];
 }
 
