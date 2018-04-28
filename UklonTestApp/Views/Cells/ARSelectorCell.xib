@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="ARSelectorCell">
+            <rect key="frame" x="0.0" y="0.0" width="92" height="57"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="92" height="57"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_car_comfort" translatesAutoresizingMaskIntoConstraints="NO" id="ayt-OA-3jO">
+                        <rect key="frame" x="0.0" y="0.0" width="92" height="35"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Комфорт" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="1X5-hz-Lfp">
+                        <rect key="frame" x="0.0" y="35" width="92" height="14.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UQs-IC-gSj">
+                        <rect key="frame" x="0.0" y="52.5" width="92" height="4"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="4" id="1dh-iY-7KE"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="1X5-hz-Lfp" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="BFR-ad-7Ez"/>
+                <constraint firstAttribute="trailing" secondItem="UQs-IC-gSj" secondAttribute="trailing" id="CVn-Hy-f98"/>
+                <constraint firstItem="ayt-OA-3jO" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Fcq-Mu-RHb"/>
+                <constraint firstAttribute="trailing" secondItem="1X5-hz-Lfp" secondAttribute="trailing" id="KYJ-aw-xPX"/>
+                <constraint firstItem="1X5-hz-Lfp" firstAttribute="top" secondItem="ayt-OA-3jO" secondAttribute="bottom" id="W2P-Au-vLx"/>
+                <constraint firstItem="ayt-OA-3jO" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="Y1U-Zg-jLT"/>
+                <constraint firstItem="UQs-IC-gSj" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="ZHB-7p-Ouj"/>
+                <constraint firstAttribute="bottom" secondItem="UQs-IC-gSj" secondAttribute="bottom" id="evq-H6-yx1"/>
+                <constraint firstItem="1X5-hz-Lfp" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="ooI-mW-wFM"/>
+                <constraint firstAttribute="trailing" secondItem="ayt-OA-3jO" secondAttribute="trailing" id="t5n-dw-uhb"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="SEy-5g-ep8"/>
+            <size key="customSize" width="91" height="57"/>
+            <connections>
+                <outlet property="imageView" destination="ayt-OA-3jO" id="ywz-6N-9OH"/>
+                <outlet property="titleLabel" destination="1X5-hz-Lfp" id="VYo-PH-5hX"/>
+                <outlet property="underline" destination="UQs-IC-gSj" id="6n6-YO-Qqt"/>
+            </connections>
+            <point key="canvasLocation" x="-153" y="-270.5"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="ic_car_comfort" width="70" height="35"/>
+    </resources>
+</document>

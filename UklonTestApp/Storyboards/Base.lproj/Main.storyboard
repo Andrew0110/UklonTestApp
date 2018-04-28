@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6UJ-FX-IKz" customClass="ARHorizontalSelectorView">
+                                <rect key="frame" x="0.0" y="20" width="375" height="70"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="ZWI-j7-dpv"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="63b-Aw-ycz">
+                                <rect key="frame" x="0.0" y="90" width="375" height="577"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Выберите тип автомобиля" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l19-OQ-ccj">
+                                        <rect key="frame" x="10" y="278" width="355" height="21.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                        <color key="textColor" red="0.61176470588235299" green="0.61176470588235299" blue="0.61176470588235299" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="l19-OQ-ccj" firstAttribute="centerY" secondItem="63b-Aw-ycz" secondAttribute="centerY" id="JZr-a5-aNd"/>
+                                    <constraint firstItem="l19-OQ-ccj" firstAttribute="centerX" secondItem="63b-Aw-ycz" secondAttribute="centerX" id="N36-1y-u78"/>
+                                    <constraint firstItem="l19-OQ-ccj" firstAttribute="leading" secondItem="63b-Aw-ycz" secondAttribute="leading" constant="10" id="OJm-bI-OTr"/>
+                                    <constraint firstAttribute="trailing" secondItem="l19-OQ-ccj" secondAttribute="trailing" constant="10" id="wSi-q0-BtI"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.27058823529411763" green="0.27843137254901962" blue="0.32941176470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="63b-Aw-ycz" secondAttribute="trailing" id="6lF-zl-PIx"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="63b-Aw-ycz" secondAttribute="bottom" id="8qt-rP-3Jr"/>
+                            <constraint firstItem="6UJ-FX-IKz" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="TOz-0C-PBy"/>
+                            <constraint firstItem="6UJ-FX-IKz" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="cRM-UH-2Xh"/>
+                            <constraint firstItem="63b-Aw-ycz" firstAttribute="top" secondItem="6UJ-FX-IKz" secondAttribute="bottom" id="fdf-dD-cOu"/>
+                            <constraint firstItem="6UJ-FX-IKz" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="mX6-ga-lwJ"/>
+                            <constraint firstItem="63b-Aw-ycz" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="tMq-Qo-ULV"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="selectionView" destination="6UJ-FX-IKz" id="OtI-uo-A1n"/>
+                        <outlet property="titleLabel" destination="l19-OQ-ccj" id="AIF-yq-u3e"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="117.59999999999999" y="118.29085457271366"/>
+        </scene>
+    </scenes>
+</document>

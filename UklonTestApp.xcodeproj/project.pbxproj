@@ -7,15 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4945BFBE2094AFA600667176 /* AutoClassDatastore.m in Sources */ = {isa = PBXBuildFile; fileRef = 4945BFBD2094AFA600667176 /* AutoClassDatastore.m */; };
 		494B129020944E9100CB8C7D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 494B128F20944E9100CB8C7D /* AppDelegate.m */; };
 		494B129320944E9100CB8C7D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 494B129220944E9100CB8C7D /* ViewController.m */; };
 		494B129620944E9100CB8C7D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 494B129420944E9100CB8C7D /* Main.storyboard */; };
 		494B129820944E9300CB8C7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 494B129720944E9300CB8C7D /* Assets.xcassets */; };
 		494B129B20944E9300CB8C7D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 494B129920944E9300CB8C7D /* LaunchScreen.storyboard */; };
 		494B129E20944E9300CB8C7D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 494B129D20944E9300CB8C7D /* main.m */; };
+		494B12AC2094531500CB8C7D /* AutoClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 494B12AB2094531500CB8C7D /* AutoClass.m */; };
+		494B12AF209454CA00CB8C7D /* ARHorizontalSelectorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 494B12AE209454CA00CB8C7D /* ARHorizontalSelectorView.m */; };
+		494B12B32094578500CB8C7D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 494B12B22094578500CB8C7D /* Default-568h@2x.png */; };
+		494B12BB209459FF00CB8C7D /* ARSelectorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 494B12B9209459FF00CB8C7D /* ARSelectorCell.m */; };
+		494B12BC209459FF00CB8C7D /* ARSelectorCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 494B12BA209459FF00CB8C7D /* ARSelectorCell.xib */; };
+		494B12C620945DC300CB8C7D /* UIColor+BaseColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 494B12C520945DC300CB8C7D /* UIColor+BaseColors.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4945BFBB2094895600667176 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		4945BFBC2094AFA600667176 /* AutoClassDatastore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AutoClassDatastore.h; sourceTree = "<group>"; };
+		4945BFBD2094AFA600667176 /* AutoClassDatastore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoClassDatastore.m; sourceTree = "<group>"; };
 		494B128B20944E9100CB8C7D /* UklonTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UklonTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		494B128E20944E9100CB8C7D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		494B128F20944E9100CB8C7D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +36,17 @@
 		494B129A20944E9300CB8C7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		494B129C20944E9300CB8C7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		494B129D20944E9300CB8C7D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		494B12AA2094531500CB8C7D /* AutoClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AutoClass.h; sourceTree = "<group>"; };
+		494B12AB2094531500CB8C7D /* AutoClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoClass.m; sourceTree = "<group>"; };
+		494B12AD209454CA00CB8C7D /* ARHorizontalSelectorView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARHorizontalSelectorView.h; sourceTree = "<group>"; };
+		494B12AE209454CA00CB8C7D /* ARHorizontalSelectorView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARHorizontalSelectorView.m; sourceTree = "<group>"; };
+		494B12B22094578500CB8C7D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		494B12B8209459FF00CB8C7D /* ARSelectorCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARSelectorCell.h; sourceTree = "<group>"; };
+		494B12B9209459FF00CB8C7D /* ARSelectorCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARSelectorCell.m; sourceTree = "<group>"; };
+		494B12BA209459FF00CB8C7D /* ARSelectorCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ARSelectorCell.xib; sourceTree = "<group>"; };
+		494B12BD20945B5500CB8C7D /* ARItemProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARItemProtocol.h; sourceTree = "<group>"; };
+		494B12C420945DC300CB8C7D /* UIColor+BaseColors.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+BaseColors.h"; sourceTree = "<group>"; };
+		494B12C520945DC300CB8C7D /* UIColor+BaseColors.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+BaseColors.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,17 +79,111 @@
 		494B128D20944E9100CB8C7D /* UklonTestApp */ = {
 			isa = PBXGroup;
 			children = (
-				494B128E20944E9100CB8C7D /* AppDelegate.h */,
-				494B128F20944E9100CB8C7D /* AppDelegate.m */,
-				494B129120944E9100CB8C7D /* ViewController.h */,
-				494B129220944E9100CB8C7D /* ViewController.m */,
-				494B129420944E9100CB8C7D /* Main.storyboard */,
-				494B129720944E9300CB8C7D /* Assets.xcassets */,
-				494B129920944E9300CB8C7D /* LaunchScreen.storyboard */,
-				494B129C20944E9300CB8C7D /* Info.plist */,
-				494B129D20944E9300CB8C7D /* main.m */,
+				494B12A92094526E00CB8C7D /* Application */,
+				494B12A52094505400CB8C7D /* Controllers */,
+				494B12A420944F0500CB8C7D /* Models */,
+				494B12A82094521900CB8C7D /* Views */,
+				494B12A6209450DD00CB8C7D /* Storyboards */,
+				494B12B02094566E00CB8C7D /* Library */,
+				494B12A72094510200CB8C7D /* Resourses */,
 			);
 			path = UklonTestApp;
+			sourceTree = "<group>";
+		};
+		494B12A420944F0500CB8C7D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				494B12AA2094531500CB8C7D /* AutoClass.h */,
+				494B12AB2094531500CB8C7D /* AutoClass.m */,
+				4945BFBC2094AFA600667176 /* AutoClassDatastore.h */,
+				4945BFBD2094AFA600667176 /* AutoClassDatastore.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		494B12A52094505400CB8C7D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				494B129120944E9100CB8C7D /* ViewController.h */,
+				494B129220944E9100CB8C7D /* ViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		494B12A6209450DD00CB8C7D /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				494B129420944E9100CB8C7D /* Main.storyboard */,
+				494B129920944E9300CB8C7D /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		494B12A72094510200CB8C7D /* Resourses */ = {
+			isa = PBXGroup;
+			children = (
+				494B12B22094578500CB8C7D /* Default-568h@2x.png */,
+				494B129720944E9300CB8C7D /* Assets.xcassets */,
+			);
+			path = Resourses;
+			sourceTree = "<group>";
+		};
+		494B12A82094521900CB8C7D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				494B12AD209454CA00CB8C7D /* ARHorizontalSelectorView.h */,
+				494B12AE209454CA00CB8C7D /* ARHorizontalSelectorView.m */,
+				494B12B42094582B00CB8C7D /* Cells */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		494B12A92094526E00CB8C7D /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				494B128E20944E9100CB8C7D /* AppDelegate.h */,
+				494B128F20944E9100CB8C7D /* AppDelegate.m */,
+				494B129C20944E9300CB8C7D /* Info.plist */,
+				494B129D20944E9300CB8C7D /* main.m */,
+				4945BFBB2094895600667176 /* PrefixHeader.pch */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		494B12B02094566E00CB8C7D /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				494B12C020945CC600CB8C7D /* Protocols */,
+				494B12B12094568F00CB8C7D /* Extensions */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		494B12B12094568F00CB8C7D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				494B12C420945DC300CB8C7D /* UIColor+BaseColors.h */,
+				494B12C520945DC300CB8C7D /* UIColor+BaseColors.m */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		494B12B42094582B00CB8C7D /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				494B12B8209459FF00CB8C7D /* ARSelectorCell.h */,
+				494B12B9209459FF00CB8C7D /* ARSelectorCell.m */,
+				494B12BA209459FF00CB8C7D /* ARSelectorCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		494B12C020945CC600CB8C7D /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				494B12BD20945B5500CB8C7D /* ARItemProtocol.h */,
+			);
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,6 +244,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				494B129B20944E9300CB8C7D /* LaunchScreen.storyboard in Resources */,
+				494B12BC209459FF00CB8C7D /* ARSelectorCell.xib in Resources */,
+				494B12B32094578500CB8C7D /* Default-568h@2x.png in Resources */,
 				494B129820944E9300CB8C7D /* Assets.xcassets in Resources */,
 				494B129620944E9100CB8C7D /* Main.storyboard in Resources */,
 			);
@@ -141,7 +258,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				494B12AF209454CA00CB8C7D /* ARHorizontalSelectorView.m in Sources */,
+				494B12BB209459FF00CB8C7D /* ARSelectorCell.m in Sources */,
+				494B12C620945DC300CB8C7D /* UIColor+BaseColors.m in Sources */,
 				494B129320944E9100CB8C7D /* ViewController.m in Sources */,
+				494B12AC2094531500CB8C7D /* AutoClass.m in Sources */,
+				4945BFBE2094AFA600667176 /* AutoClassDatastore.m in Sources */,
 				494B129E20944E9300CB8C7D /* main.m in Sources */,
 				494B129020944E9100CB8C7D /* AppDelegate.m in Sources */,
 			);
@@ -284,7 +406,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = UklonTestApp/Info.plist;
+				DEVELOPMENT_TEAM = "";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/Application/PrefixHeader.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/UklonTestApp/Application/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,7 +424,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = UklonTestApp/Info.plist;
+				DEVELOPMENT_TEAM = "";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/Application/PrefixHeader.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/UklonTestApp/Application/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
